@@ -6,7 +6,7 @@ function agregarAmigo() {
   const inputAmigo = document.getElementById('amigo');
   const nombreAmigo = inputAmigo.value.trim();
 
-  //limpiar campo de entrada
+  //limpiar campo de entrada 
   inputAmigo.value = "";
 
   //valida que el campo no este vacio
@@ -44,7 +44,7 @@ function actualizarLista(){
     
   }
 }
-
+// funcion para sortear amigos
 function sortearAmigo(){
     if (amigos.length === 0) {
         document.getElementById('listaAmigos').innerHTML = 'agrega un nombre.';
